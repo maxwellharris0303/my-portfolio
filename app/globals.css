@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fbfbfb;
+  transition: all 0.7s ease-in-out;
+}
+.container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 1rem;
+  max-width: 1024px;
+}

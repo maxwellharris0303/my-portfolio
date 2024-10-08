@@ -10,7 +10,7 @@ import Button from "@/app/components/Button";
 import { twitterLink } from "./data";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://smiles-mocha.vercel.app/"),
+  metadataBase: new URL("https://maxwellharris-portfolio.vercel.app/"),
   alternates: {
     canonical: "/",
   },
@@ -24,8 +24,11 @@ export const metadata: Metadata = {
     { name: "SMDV", url: twitterLink },
   ],
   openGraph: {
-    images: "/logo.png",
+    images: "/me.png",
   },
+  icons: {
+    icon: "/me.png"
+  }
 };
 
 const Footer = dynamic(() => import("@/app/components/Footer"), { ssr: false });

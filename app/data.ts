@@ -2,7 +2,7 @@ import { TProject } from "./project"
 
 export const gitHubLink = "https://github.com/maxwellharris0303"
 export const twitterLink = "https://x.com/maxwell_h0303"
-export const instagramLink = "https://www.instagram.com/maxwellharris0303"
+export const instagramLink = "https://www.instagram.com/maxwellharris303"
 export const name = "Maxwell Harris"
 export const country = "Canada"
 
